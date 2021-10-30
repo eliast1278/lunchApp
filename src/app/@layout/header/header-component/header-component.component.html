@@ -1,0 +1,26 @@
+<div class="o-header">
+  <nz-page-header class="c-header-inner">
+    <nz-avatar nzIcon="user"></nz-avatar>
+    <nz-page-header-title>
+      <a nz-dropdown class="e-header-title" [nzDropdownMenu]="menu">الیاس تویل
+        <i nz-icon nzType="down"></i>
+      </a>
+      <nz-dropdown-menu #menu="nzDropdownMenu">
+        <ul nz-menu>
+          <li nz-menu-item (click)="log('1st menu item')">profile</li>
+          <li nz-menu-item (click)="log('2nd menu item')">setting</li>
+          <li nz-menu-item (click)="log('3rd menu item')">history</li>
+          <li nz-menu-item (click)="log('3rd menu item')">add user</li>
+        </ul>
+      </nz-dropdown-menu>
+    </nz-page-header-title>
+
+    <nz-page-header-tags>
+      <nz-tag [nzColor]="active">{{time}}</nz-tag>
+    </nz-page-header-tags>
+
+    <nz-page-header-extra class="c-header-logo">
+      <img class="e-logo" src="/assets/images/logo.png" alt="header-logo"/>
+    </nz-page-header-extra>
+  </nz-page-header>
+</div>

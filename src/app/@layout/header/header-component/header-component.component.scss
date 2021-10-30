@@ -1,0 +1,18 @@
+@import "../../../app.component";
+
+.o-header {
+  background: $main-dark-color;
+  color: #fff;
+}
+
+.o-header > .c-header-inner {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.o-header > .c-header-inner .e-header-title {
+  color: #fff;
+}
+
+.c-header-logo > .e-logo {
+  height: 100px;
+}

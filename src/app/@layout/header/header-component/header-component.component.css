@@ -1,0 +1,26 @@
+.o-main {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.o-header {
+  background: #203246;
+  color: #fff;
+}
+
+.o-header > .c-header-inner {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.o-header > .c-header-inner .e-header-title {
+  color: #fff;
+}
+
+.c-header-logo > .e-logo {
+  height: 100px;
+}
+
+/*# sourceMappingURL=header-component.component.css.map */
